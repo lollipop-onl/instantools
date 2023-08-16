@@ -1,0 +1,8 @@
+{
+  "name": "@instantools/tsconfig",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "astro": "^2.10.9"
+  }
+}

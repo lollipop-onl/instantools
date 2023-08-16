@@ -1,5 +1,5 @@
 {
-  "extends": "astro/tsconfigs/strict",
+  "extends": "@instantools/tsconfig",
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {

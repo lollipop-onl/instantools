@@ -36,6 +36,9 @@ importers:
       '@instantools/tailwind-config':
         specifier: '*'
         version: link:../../packages/tailwind-config
+      '@instantools/tsconfig':
+        specifier: '*'
+        version: link:../../packages/tsconfig
       tailwindcss:
         specifier: ^3.3.3
         version: 3.3.3
@@ -45,6 +48,12 @@ importers:
       tailwindcss:
         specifier: ^3.3.3
         version: 3.3.3
+
+  packages/tsconfig:
+    devDependencies:
+      astro:
+        specifier: ^2.10.9
+        version: 2.10.9
 
 packages:
 
